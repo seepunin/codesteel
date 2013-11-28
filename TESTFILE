@@ -36,3 +36,57 @@ return 0;
 
 -------------------------------------------------
 DATE: 11-20-13
+
+
+
+
+
+-------------------------------------------------
+/* Name: Telford Vance See
+   Date: 11-29-13
+   
+   #include <iostream>
+
+using namespace std;
+int main()
+{
+int getMonth;
+
+
+cout << "\t\tEnter Month: -> ";
+cin >> getMonth;
+ 
+ if(getMonth()==1)
+    {cout<<"January "<<endl; }
+    else if(getMonth()==2)
+    {cout<<"February "<<endl;            }
+    else if(getMonth()==3)
+    {cout<<"March "<<endl;            }
+    else if(getMonth()==4)
+    {cout<<"April "<<endl;            }
+    else if(getMonth()==5)
+    {cout<<"May "<<endl;            }
+    else if(getMonth()==6)
+    {cout<<"June "<<endl;            }
+    else if(getMonth()==7)
+    {cout<<"July "<<endl;            }
+    else if(getMonth()==8)
+    {cout<<"August "<<endl;            }
+    else if(getMonth()==9)
+    {cout<<"September "<<endl;            }
+    else if(getMonth()==10)
+    {cout<<"October "<<endl;            }
+    else if(getMonth()==11)
+    {cout<<"November "<<endl;            }
+    else if(getMonth()==12)
+    {cout<<"December "<<endl;            }
+    else
+    {   system ("cls");
+        cout<<"\n\n\n\n\n\t\tINVALID DATE!!!!!!"<<endl;
+        system ("pause");
+    }  
+    
+    system("pause");
+    return 0;
+}
+
