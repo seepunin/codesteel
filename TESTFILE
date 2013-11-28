@@ -2,10 +2,35 @@ Test File:
 Type anything out here for testing purposes for Case Study.
 
 -------------------------------------------------
+/* Author of Code below: Adrian Adame
+   Date: 11.28.13 */
+   
+#include<iostream>
+using namespace std;
 
 
+class gabby
+{
+      public:
+             int x, y, sum;
+             int test()
+             {
+                 sum=1+1;
+                 cout<<sum;
+                 return 0;
+             }
 
+};
 
+int main()
+{
+    gabby gab;
+    cout<<"Hello world\n\n";
+    gab.test();
+    cout<<endl;
+system("pause");
+return 0;
+}
 
 
 
